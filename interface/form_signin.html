@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/form.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <script src="../jquery-3.6.4.js"></script>
+    <script src="../js/bootstrap.js"></script>
+    <link rel="stylesheet" href="../css/List.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <title>Đăng Ký tài khỏan</title>
+    <script src="../js/form_dk.js"></script>
+</head>
+
+<style>
+    .error {
+        color: red;
+        font-style: italic;
+    }
+    
+    .errorborder {
+        border: 1px solid red;
+    }
+    footer{
+    font-size: 16px;
+}
+.footer__main--path{
+    height: 62px;
+    display: flex;
+    align-items: center;
+}
+.footer__main--path h3{
+    margin:10px 0px 0px 4px;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+</style>
+<body>
+     
+    <div class="container_chinh">
+    <header style=" overflow: hidden; position: sticky; top: 0px; z-index: 9999;" >
+        <!-- <div class="header_tittle">
+            <div class="header_tittle_left">
+                <img src="../img/trust.png"  width="240px" height="30px" alt="">
+                <p>4,8&bull; Hervorragend</p>
+            </div>
+            <div class="header_tittle_right">
+                <span>
+                    <img src="../img/Check circle 1 (1).png" alt="">
+                     lựa cọn xe đạp lớn nhất ở ASIAN 
+                </span>
+                <span>
+                    <img src="../img/Check circle 1 (1).png" alt="">
+                    Chứng nhận người bán uy tín
+                </span>
+                <span>
+                    <img src="../img/Check circle 1 (1).png" alt="">
+                    Bảo vệ người mua 
+                </span>
+                <span>
+                    <img src="../img/Check circle 1 (1).png" alt="">
+                    Tài chính
+                </span>
+            </div>
+        </div> -->
+  
+     
+        <div class="headermenu" >
+                
+        <div class="headermenu_left">
+            
+            <a href="../interface/trangchinh.html" style="text-decoration: none;color: white;"><h1> <i>buycycle.</i></h1></a>
+        </div>
+        <div class="headermenu_center">
+            <span class="dropdown" >
+                <a class="dropbtn" style="padding-top: 10px;  padding-left: 20px; margin-bottom: 20px;text-decoration: none; color: white;   ">Đường và sỏi</a> <br>
+                <span class="dropdown-content"  style="padding-left: 30px; padding-top: 20px;">
+                   <h1>Đường và sỏi</h1>
+                    <p></p>
+                   <table cellspacing="5" cellpadding="5" >
+                    <tr>
+                        <td style="font-weight: bold;">Road & Gravel</td>
+                        <td style="font-weight: bold;">Help</td>
+                    </tr>
+                    <tr>
+                        <td>Triathlon bikes</td>
+                        <td>Buyers-guide</td>
+                    </tr>
+                    <tr>
+                        <td>Gravel bikes</td>
+                        <td>Sell</td>
+
+                    </tr>
+                    <tr>
+                        <td>Road bikes</td>
+                        <td>FAQs</td>
+
+                    </tr>
+                    <tr>
+                        <td>E-Road & Gravel</td>
+                        <td>
+                            
+                        </td>
+                    </tr>
+                   </table>
+                </span>
+                   
+                </p> 
+                </a>                              
+            </span>
+            <span class="dropdown_2">
+                <a class="dropbtn_2" style="padding-top: 10px ;padding-left: 20px; margin-bottom: 20px; text-decoration: none; color: white;">Xe đạp leo núi</a>
+                <span class="dropdown-content_2" style="padding-left: 30px; padding-top: 20px;">
+                   <h1>Xe đạp leo núi</h1>
+                    <p></p>
+                   <table cellspacing="5" cellpadding="5">
+                    <tr>
+                        <td style="font-weight: bold;">Mountainbike</td>
+                        <td style="font-weight: bold;">Help</td>
+                    </tr>
+                    <tr>
+                        <td>Downhill</td>
+                        <td>Buyers-guide</td>
+                    </tr>
+                    <tr>
+                        <td>Crosscrountry</td>
+                        <td>Sell</td>
+
+                    </tr>
+                    <tr>
+                        <td>Trail</td>
+                        <td>FAQs</td>
+
+                    </tr>
+                    <tr>
+                        <td>Enduro</td>
+                        <td>
+                            
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>E-Mountainbike</td>
+                        <td></td>
+                    </tr>
+                   </table>
+                </span>
+                   
+                </p> 
+                </a>                              
+            </span>
+            <!-- <span >
+                <p>
+                    Mountainbike </p>
+                
+            </span> -->
+            <span class="dropdown_3">
+                <a class="dropbtn_3" style="padding-top: 10px; padding-left: 20px; margin-bottom: 20px; text-decoration: none; color: white;">Tân trang xe </a>
+                <span class="dropdown-content_3" style="padding-left: 30px; padding-top: 20px;">
+                   <h1>Tân trang lại </h1>
+                    <p></p>
+                   <table cellspacing="5" cellpadding="5">
+                    <tr>
+                        <td style="font-weight: bold;">image.png</td>
+                        <td style="font-weight: bold;">Help</td>
+                    </tr>
+                    <tr>
+                        <td>Road & Gravel</td>
+                        <td>Buyers-guide</td>
+                    </tr>
+                    <tr>
+                        <td>Mountainbike
+                        <td>Sell</td>
+
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>FAQs</td>
+
+                    </tr>
+                   
+                   </table>
+                </span>
+                   
+                </p> 
+                </a>                              
+            </span>
+            <!-- <span>
+                
+                    <p> Refurbished </p>    
+                
+                   
+            </span>                       -->
+        </div >
+     
+          <div class="headermenu_right">
+            <input type="text" placeholder="Search" id="search" style="width: 230px; height: 35px; border-radius: 5px;">
+            <span><a href="../interface/List.html" style="color: aliceblue; text-decoration: none; ">Tìm kiếm</a></span>
+                    
+            <div class="headermenu_right_icon">
+                <span><a href="../interface/tranglienhe.html" style="color: aliceblue; text-decoration: none; padding-left: 20px; ">Liên hệ</a></span>
+                <span  style="cursor: pointer; display: flex; justify-content: center; align-items: center;" data-target='#form' id="dangnhap"> Đăng nhập</span>
+            </div>
+          </div>
+         
+         
+      
+
+    
+    </div>
+    <!-- modal- đăng nhập -->
+    <div class="modal  " id='form' >
+        <div class="modal-dialog modal-lg " style="width: 90%; max-width: 480px;">
+            <div class="modal-content">
+                <div class="modal-header ">
+                    <!-- <h3 class="text-left mb-5"> bicycle</h3>  -->
+                  
+                    <h1 class="text-center">Đăng nhập</h1>
+                    <button data-dismiss='modal' style="width: 20px; height: 20px;" class="ml-5" >&times;</button>
+                    
+
+                 
+            
+              
+                    
+                     
+                    </div>
+                
+                <div class="modal-body">
+                    <div class="form-group row ">
+                        <div class=" border-dark " style="">
+                            <img src="../img/Facebook 1.png" style="width: 20px ; height: 20px;" alt="facebook">
+                            facebook
+                        </div>
+                        <div class=" border-dark ">
+                            <img src="../img/Gmail.jpg"  style="width: 20px ; height: 20px;" alt="Gmail">
+                            Gmail
+                        </div>
+                        <div class=" border-dark ">
+                            <img src="../img/apple.jpg " style="width: 20px ; height: 20px;" alt="Apple">
+                            Apple
+                        </div>
+                 
+                     </div>
+                    <form id="formdk" class="form" >
+                        <div class="form-group row">
+                            <label class="ml-0" for="email">E-mail</label>
+                            <input type="text"   id="txtEmail" placeholder="E-mail" class=" form-control">
+                            <div class="ml-0 text-danger" id="enteremail">*</div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="" class="ml-0">Mật khẩu</label>
+                            <input type="password" name="txtmk" id="txtmk" placeholder="Mật khẩu" class="form-control">
+                            <div class=" ml-0 text-danger" id="entermk">*</div>
+
+                        </div>
+                        <div class="form-group row form-check-inline">
+                            <div class=" ">
+                                <input type="checkbox" class="" name="" id="txtluu">
+                            </div>
+                           
+                            <label for="" class=" ml-2 align-items-center" >Lưu trữ dữ liệu đăng nhập</label>
+                           
+                        </div>
+                        <div class="form-group row">
+                            <button class="btn btn-dark  col-lg-12 button-submit" value="" id="btndn">Đăng Nhập</button>
+                        </div>
+                        
+                              
+                       
+                            
+                        
+                         
+                    </form>
+                </div>
+                <div class="modal-footer"> 
+                   <a href="../interface/form_signin.html"><input type="button"  value="đăng ký"  class="btn btn-primary"></a>
+                    <button data-dismiss="modal" onclick="" class="btn btn-danger text-lg-right">Hủy</button>
+                </div>
+            </div>
+        </div>
+
+     </div>
+
+</header>
+         
+    <main>
+      
+            <div class="container_dk">
+                <div class="container_left">
+                    
+                   
+                    <div class="container_left_form">
+                        <h1>Đăng ký</h1>
+                        <p>Trở thành thành viên buycycle</p>
+                        <div class="container_left_icon">
+                            <span > <img src="../img/Facebook 1.png"  style="width: 20px; height: 20px;"  alt="">Facebook</span>
+                            <span><img src="../img/Gmail.jpg" style="width: 20px; height: 20px;" alt=""> Gmail</span>
+                            <span> <img src="../img/apple.jpg"  style="width: 20px; height: 20px;" alt=""> Apple</span>
+                        </div>
+                        <form action="" id="form_dk">
+                            <label for="ten">Tên</label>
+                            <input type="text " style="height: 35px;border-radius: 8px;" placeholder="Nhập tên của bạn" id="txtdk_ten">
+                            <label for="ho">Họ</label>
+                            <input type="text"  style="height: 35px;border-radius: 8px;" placeholder="Nhập họ của bạn" id="txtdk_ho">
+                            <label for="">E-mail</label>
+                            <input type="email" style="height: 35px;border-radius: 8px;" placeholder="E-mail" name="Email" id="txtdk_email">
+                            <label for="">Số điện thoại</label>
+                            <input type="text" style="height: 35px;border-radius: 8px;" placeholder="Số điện thoại" name="sdt" id="txt_sdt" value="">
+                            <label for="" id="">Mật khẩu</label>
+                           
+                            <input type="password" style="height: 35px;border-radius: 8px;" placeholder="Mật khẩu" name="password" id="txtdk_mk">
+                            <label for="resetpass">Nhập lại nhật khẩu </label>
+                            <input type="password" style="height: 35px;border-radius: 8px;" placeholder="Nhập lại Mật khẩu" name="" id="txtdk_nlmk">
+                            <span style="display: flex; justify-content: space-between; align-items: center;">
+                                <span  style="display: flex; justify-content: space-between; align-items: center;"><input type="checkbox" name="" class="form-check-inputs" id="" placeholder="" value="confirm"> &nbsp; tôi chấp nhận những điều khoản và chính sách bảo mật </span>
+                                
+                            </span>
+                            <a href="#" id="link">
+
+                           
+                          <input type="button"  style="background-color: black; border-radius: 8px; height: 40px;width: 450px;color: white;" value="Đăng ký" id="btn-dk" placeholder="Để đăng nhập">
+                        </a>
+                         
+        
+                        </form>
+                    </div>
+                </div>
+                <div class="container_right">
+                    <img src="../img/login-bg.webp" style="overflow: auto;" width="100%"  height="100%"alt="" id="img">
+                    <!-- <div><a href="../interface/trangchinh.html"><input type="button" id="button" style="height: 25px; width: 25px;" onclick="alert('Bạn đã hủy đặng nhập')" value="X" placeholder="X"></a></div> -->
+                    <div class="container_right_danhgia ">
+                        <h2>Siêu dễ dàng!</h2>
+                        <p>Rất hài lòng với toàn bộ quá trình, tôi không có lý do để phàn nàn</p>
+                   
+                    </div>
+                </div>
+        
+            </div>
+        
+    </main>
+    <footer>
+        <img class="footer__background" src="../img/background_footer_1.png" alt="">
+        <div class="footer__main">
+
+            <table>
+                <tr>
+                    <td class="table__title">Liên kết</td>
+                    <td class="table__title">Chính sách</td>
+                    <td class="table__title">Hỗ trợ</td>
+                </tr>
+                <tr>
+                    <td> <a href="#" class="table__text"> Tìm kiếm</a> </td>
+                    <td> <a href="#" class="table__text"> Chính sách đổi trả</a> </td>
+                    <td> <a href="#" class="table__text"> Hướng dẫn mua hàng</a> </td>
+                </tr>
+                <tr>
+                    <td> <a href="#" class="table__text"> Giới thiệu </td>
+                    <td> <a href="#" class="table__text"> Chính sách bảo mật</td>
+                    <td> <a href="#" class="table__text"> Hướng dẫn thanh toán</td>
+                </tr>
+                <tr>
+                    <td> <a href="#" class="table__text"> Điều khoản dịch vụ</a> </td>
+                    <td> <a href="#" class="table__text"> Chính sách vận chuyển</a> </td>
+                    <td> <a href="#" class="table__text"> Hướng dẫn giao nhận</a> </td>
+                </tr>
+            </table>
+            <div class="footer__main__left">
+                <p>
+                    BikerVN là một trong những đơn vị cung cấp và làm việc chuyên nghiệp và uy tín, với nhiều năm kinh nghiệm trong lĩnh vực này, BikerVN đã mở rộng các cửa hàng bán xe đạp thể theo trải dài khắp Việt Nam. Nhiệm vụ của chúng tôi là luôn đồng hành cùng các bạn trong hành trình chinh phục các cung đường của bản thân.
+                </p>
+                <div>
+                    Kết nối với chúng tôi
+                </div>
+                <div class="footer__main--path">
+                    <a href="#" class="icon--path"><img src="../img/facebook.svg" alt="" style="height: 40px;"><h3>&ensp; Facebook</h3></a>
+                    <a href="#" class="icon--path"><img src="../img/instagram.svg" alt="" style="height: 40px;"><h3>&ensp; Instagram</h3></a>
+                    <a href="#" class="icon--path"><img src="../img/twitter.svg" alt="" style="height: 40px;"><h3>&ensp; Twitter</h3></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer__contact">
+            <span class="">Hotline</span> 0968538196 &emsp; <span class=""> Email: </span> dmdnhie@gmail.com
+        </div>
+    </footer>
+    </div>
+   
+    <!-- <div class="modal fade " id="fromlogin">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content"></div>
+        </div>
+
+    </div> -->
+    
+</body>
+</html>

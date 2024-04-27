@@ -1,0 +1,175 @@
+:root{
+     --color:rgb(64,160,246);
+}
+*{
+    box-sizing: border-box;
+}
+main{
+    background-color: rgb(235, 235, 243);
+    padding-bottom: 40px;
+}
+.main__header{
+    height: 80px;
+    display: flex;
+    padding: 10px 100px;
+    font-size: 20px;
+    justify-content: space-between;
+}
+.main__header span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: var(--color);
+    height: 25px;
+    width: 130px;
+    border-radius: 40px 0px;
+    padding: 20px 10px;
+    box-shadow: 0px 0px 10px rgb(154, 154, 222);
+}
+.main__header svg{
+    color: var(--color);
+}
+.main__body {
+    display: flex;
+}
+.index{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color);
+    padding: 3px 7px;
+    border-radius: 50%;
+    font-size: 12px;
+    color: white;
+    margin-right: 10px;
+}
+.body__bill{
+    width: 72%;
+    box-shadow: 0px 0px 10px rgb(163, 163, 171);
+    background-color: white;
+    border-radius: 10px;
+    margin: 0px 20px;
+}
+.body__infor{
+    width: 25%;
+    box-shadow: 0px 0px 10px rgb(163, 163, 171);
+    background-color: white;
+    border-radius: 10px;
+    height: 300px;
+}
+.bill__header{
+    display: flex;
+    align-items: center;
+    margin:10px 0px 10px 50px;
+
+}
+.bill__title{
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--color);
+    margin: 0px;
+}
+.bill__body{
+    padding-bottom: 400px;
+    border-bottom:1px solid var(--color) ;
+  
+}
+.bill__item{
+    display: flex;
+    height: 150px;
+    border: 1px solid var(--color);
+    border-radius: 20px;
+    margin: 0px 50px;
+}
+.bill__item img{
+    height: 135px;
+    width: 330px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px black;
+    margin: 7px;
+}
+.item__container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.item__infor{
+    margin: 5px 20px;
+    color: var(--color);
+    font-size: 22px;
+    font-weight: bold;
+}
+.item__infor table{
+    margin: 15px 0px;
+    height: 80px;
+    font-size: 16px;
+    border-collapse: collapse;
+    font-family: monospace;
+    color: rgb(103, 101, 101);
+}
+.item__action{
+    margin: 20px;
+    padding: 20px 0px;
+    border: 1px solid rgb(201, 197, 197);
+    border-radius: 10px;
+    text-align: center;
+}
+.item__action .remove--item{
+    cursor: pointer;
+    margin: 20px 20px;
+    width: 100px;
+    height: 25px;
+    border-radius: 10px;
+    border: 0px;
+    background-color: var(--color);
+    color: white;
+}
+.bill__footer{
+    color: var(--color);
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 50px;
+}
+.bill__footer .cost{
+    margin: 0px 10px 0px 600px;
+}
+.infor__title{
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+    color: var(--color);
+    font-weight: bold;
+    margin-top: 10px;
+}
+.infor__title p{
+    margin: 0;
+}
+.infor__body{
+    padding: 20px ;
+}
+.btn--submit{
+    margin:0px 20px;
+    width: 334px;
+    height: 35px;
+    background-color: var(--color);
+    border: 0px;
+    border-radius: 8px;
+    font-size: 17px;
+    color: white;
+    box-shadow: 0px 2px 5px rgb(161, 156, 156);
+}
+footer{
+    font-size: 16px;
+}
+.footer__main--path{
+    height: 62px;
+    display: flex;
+    align-items: center;
+}
+.footer__main--path h3{
+    margin:0px 0px 0px 7px;
+    font-size: 20px;
+    font-weight: bold;
+}
+

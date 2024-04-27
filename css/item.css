@@ -1,0 +1,338 @@
+
+:root{
+  --black: #727478;
+  --grey: #7f8184;
+  --yellow: #edc932;
+}
+.btn {
+    align-items: center;
+    border-radius: 8px;
+    display: inline-flex;
+    font-size: 14px;
+    font-weight: 400;
+    justify-content: center;
+    line-height: 20px;
+    padding: 9px 15px;
+    cursor: pointer;
+}
+.btn:hover{
+    opacity: 0.8;
+}
+.nav--path{
+    width: 100%;
+    background-color: rgba(236, 235, 233,0.5);
+}
+.blur{
+    color: rgb(96, 94, 94);
+}
+a{
+    color: gray;
+    text-decoration: solid;
+}
+
+#show_nav_path{
+    margin:0px 100px;
+    color: gray;
+    height: 40px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.section__main{
+    padding: 50px 120px;   
+    display:flex;
+    
+}
+.section__img #img--primary{
+    height: 380px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgb(123, 123, 123);
+}
+.section__img .img--extra{
+    display: flex;
+    justify-content: space-between;
+}
+.section__img .img--extra img{
+    height: 120px;
+    border-radius: 10px;
+    width: 24%;
+    box-shadow: 0px 0px 10px rgb(123, 123, 123);
+}
+.section__infor{
+    margin-left: 20px;
+}
+.infor__name{
+    font-size: 34px;
+    font-family: monospace;
+}
+.infor__cost .cost--fake{
+    text-decoration: line-through;
+    font-family: monospace;
+    font-size: 26px;
+    padding-top: 10px;
+}
+.infor__cost .cost--real{
+    font-family: monospace;
+    font-size: 23px;
+    color: red;
+}
+.infor__describe{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    line-height: 23px;
+}
+.infor__detail table{
+    margin: 20px 0px;
+    width: 100%;
+    height: 170px;
+    font-size: 16px;
+    border-collapse: collapse;
+    font-family: monospace;
+}
+.infor__detail table tr,
+.infor__detail table td{
+    border: 1px solid rgb(180, 175, 175);
+    width: 50%;
+}
+.infor--color{
+    display: inline-block;
+    border: 10px solid ;
+    width: 0px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px gray;
+    margin: 2px 10px;
+}
+.desicon{
+    display: flex;
+    justify-content: space-between;
+}
+.desicon__btn{
+    width: 49%;
+    border: 1px solid black;
+}
+/*  */
+.product-review-container {
+    background: #f5f5f5;
+    padding: 30px 150px;
+    border-radius: 8px;
+    width: 100%;
+  }
+  
+  .product-review-container h2 {
+    font-size: 24px;
+    margin-bottom: 16px;
+    color: rgb(8, 75, 75);
+  }
+  
+  .product-review-container form {
+    margin-bottom: 32px;
+  }
+  
+  .product-review-container .rating {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
+  }
+  
+  .product-review-container label {
+    cursor: pointer;
+    font-size: 22px;
+    color: #dcdcdc;
+  }
+  
+  .product-review-container input[type="radio"] {
+    display: none;
+  }
+  
+  .product-review-container input[type="radio"]:checked + label {
+    color: #ffd700;
+  }
+  
+  .product-review-container textarea {
+    width: 100%;
+    height: 100px;
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid #dcdcdc;
+    font-size: 16px;
+    margin-bottom: 16px;
+  }
+  
+  .product-review-container button {
+    background: #ffd700;
+    color: #000;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .product-review-container button:hover {
+    background: #e6b800;
+  }
+  
+  .product-review-container .reviews {
+    margin-top: 32px;
+  }
+  
+  .product-review-container .reviews h3 {
+    font-size: 18px;
+    margin-bottom: 16px;
+  }
+  
+  .product-review-container .reviews ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .product-review-container .reviews li {
+    border: 1px solid #dcdcdc;
+    padding: 8px;
+    border-radius: 8px;
+    margin-bottom: 16px;
+  }
+  
+  .product-review-container .reviews .review-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  
+  .product-review-container .reviews .reviewer-name {
+    font-size: 18px;
+    color:  rgb(8, 75, 75);
+  }
+  
+  .product-review-container .reviews .review-date {
+    font-size: 16px;
+    color: #8f8f8f;
+  }
+  
+  .product-review-container .reviews .review-body {
+    display: flex;
+  }
+  .product-review-container .reviews .review-text {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+ 
+  .rating-box p {
+    font-size: 15px;
+    color: var(--grey);
+    margin-bottom: 10px;
+  }
+  .stars {
+    display: flex;
+    background-color: white; 
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    gap: 15px;
+    margin-bottom: 10px;
+  }
+  
+ .stars i {
+    color: var(--grey);
+    height: 28px;
+    font-size: 40px;
+    cursor: pointer;
+    transition: color .2s ease;
+    display: flex;
+  }
+   .stars i img{
+    height: 24px;
+    width: 24px;
+  }
+  .stars--small{
+    height: 20px;
+    width: 15%;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 5px;
+  }
+  .stars--small i img{
+    height: 18px;
+    width: 18px;
+  }
+ /* thanh trượt */
+.scroll-space{
+   height: 340px;
+   overflow-x: scroll;
+   margin: 20px 50px;
+}
+.scroll-space::-webkit-scrollbar{
+   height: 8px;
+   background-color: #f5f5f5;
+}
+.scroll-space::-webkit-scrollbar-thumb{
+  background-color: #000000;
+  border-radius: 50px;
+}
+.scroll-space h3{
+    margin: 0px 20px;
+    font-size: 23px;
+    color: rgb(30, 83, 83);
+    font-family: monospace;
+}
+.scroll-space__itemAll{
+    display: flex;
+}
+.section__item{
+    display: flex;
+    height: 260px;
+    flex-wrap: wrap;
+    box-shadow: -2px 5px 2px rgb(210, 209, 209);
+    margin: 15px 10px;
+    border-radius: 10px;
+    transition: transform 0.5s;
+}
+.section__item:hover{
+    transform: scale(1.1);
+}
+.section__item img{
+    
+    width: 260px;
+    height: 170px;
+    border-radius: 10px 10px 0px 0px ;
+}
+.section__item .section__item--info{
+    position: relative;
+    padding: 10px;
+}
+.section__item .section__item--attribute{
+    font-size: 14px;
+    color: var(--color--line);
+}
+.section__item .section__item--brand{
+    position: absolute;
+    bottom: -15px;
+}
+.section__item .section__item--name{
+    position: absolute;
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    bottom: -45px;
+}
+.section__item .section__item--pricedrop{
+    position: absolute;
+    right: 5px;
+    bottom: -45px;
+    color: red;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.section__item .section__item--price{
+    position: absolute;
+    font-size: 14px;
+    right: 5px;
+    bottom: -20px;
+    text-decoration: line-through;
+    color: var(--color--line);
+}
+

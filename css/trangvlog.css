@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: auto;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    margin-bottom: 20px;
+    
+}
+.main_tittle{
+    width: 60%;
+    margin-bottom: 30px;
+
+
+}
+.main_tittle div{
+
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 280px;
+    height: 70px;
+    overflow: visible;
+    /* border: 1px solid black; */
+}
+.main_vlog{
+    width: 60%;
+
+}
+.main_vlog p{
+    padding-top: 20px;
+}
+.main_vlog img{
+    padding-top: 20px;
+}
